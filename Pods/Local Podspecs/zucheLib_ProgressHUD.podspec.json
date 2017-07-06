@@ -1,0 +1,39 @@
+{
+  "name": "zucheLib_ProgressHUD",
+  "version": "0.1.9",
+  "summary": "ProgressHUD for zucheApp. it is extended for mbprogressHUD.",
+  "description": "ProgressHUD for zucheApp. it is extended for mbprogressHUD.ProgressHUD for zucheApp. it is extended for mbprogressHUD.",
+  "homepage": "http://10.3.4.127:8888/ios_team/zuchelib_progresshud",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangyuqing": "zhangyuqing@5288z.com"
+  },
+  "source": {
+    "git": "http://10.3.4.127:8888/ios_team/zuchelib_progresshud.git",
+    "tag": "0.1.9"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "zucheLib_ProgressHUD/Classes/**/*",
+  "resource_bundles": {
+    "zucheLib_ProgressHUD": [
+      "zucheLib_ProgressHUD/Assets/*.png"
+    ]
+  },
+  "resources": "zucheLib_ProgressHUD/Assets/*.{ttf,otf,png,jpg}",
+  "dependencies": {
+    "MBProgressHUD": [
+      "~> 0.9"
+    ],
+    "Masonry": [
+      "~> 0.6.1"
+    ],
+    "Reachability": [
+      "~> 3.2"
+    ]
+  }
+}

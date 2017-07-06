@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA7CD9BE1EEA4792001DAFD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7CD9BD1EEA4792001DAFD5 /* main.m */; };
+		DA7CD9C11EEA4792001DAFD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7CD9C01EEA4792001DAFD5 /* AppDelegate.m */; };
+		DA7CD9C41EEA4792001DAFD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7CD9C31EEA4792001DAFD5 /* ViewController.m */; };
+		DA7CD9C71EEA4792001DAFD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA7CD9C51EEA4792001DAFD5 /* Main.storyboard */; };
+		DA7CD9C91EEA4792001DAFD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA7CD9C81EEA4792001DAFD5 /* Assets.xcassets */; };
+		DA7CD9CC1EEA4792001DAFD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA7CD9CA1EEA4792001DAFD5 /* LaunchScreen.storyboard */; };
+		DA7CDA571EEA70DA001DAFD5 /* ZCMyProfileBusiness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7CDA401EEA49A8001DAFD5 /* ZCMyProfileBusiness.framework */; };
+		DA7CDA581EEA70DE001DAFD5 /* ZCOrderBusiness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7CD9EF1EEA489F001DAFD5 /* ZCOrderBusiness.framework */; };
+		DA7CDA591EEA70E3001DAFD5 /* ZCPublicLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7CDA251EEA4949001DAFD5 /* ZCPublicLibrary.framework */; };
+		DA7CDABA1EEAA25A001DAFD5 /* libFMDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7CDAB91EEAA25A001DAFD5 /* libFMDB.a */; };
+		DA7CE08E1EED90CF001DAFD5 /* PayCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7CE08D1EED90CF001DAFD5 /* PayCenterViewController.m */; };
+		DCC59454ADB9CE6604BFD091 /* libPods-JHFrame_Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA43B0BEBB2EF447916E617 /* libPods-JHFrame_Test.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA7CD9EE1EEA489F001DAFD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA7CD9EA1EEA489D001DAFD5 /* ZCOrderBusiness.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DA7CD9DF1EEA489D001DAFD5;
+			remoteInfo = ZCOrderBusiness;
+		};
+		DA7CDA241EEA4949001DAFD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA7CDA201EEA4947001DAFD5 /* ZCPublicLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DA7CDA151EEA4947001DAFD5;
+			remoteInfo = ZCPublicLibrary;
+		};
+		DA7CDA3F1EEA49A8001DAFD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA7CDA3B1EEA49A6001DAFD5 /* ZCMyProfileBusiness.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DA7CDA301EEA49A6001DAFD5;
+			remoteInfo = ZCMyProfileBusiness;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B521FCB29BD996660C76895 /* Pods-JHFrame_Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHFrame_Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JHFrame_Test/Pods-JHFrame_Test.debug.xcconfig"; sourceTree = "<group>"; };
+		AEA43B0BEBB2EF447916E617 /* libPods-JHFrame_Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JHFrame_Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7FDB086CE7E8D4E37C5D81F /* Pods-JHFrame_Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHFrame_Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-JHFrame_Test/Pods-JHFrame_Test.release.xcconfig"; sourceTree = "<group>"; };
+		DA7CD9B91EEA4792001DAFD5 /* JHFrame_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHFrame_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA7CD9BD1EEA4792001DAFD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA7CD9BF1EEA4792001DAFD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA7CD9C01EEA4792001DAFD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA7CD9C21EEA4792001DAFD5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DA7CD9C31EEA4792001DAFD5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA7CD9C61EEA4792001DAFD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA7CD9C81EEA4792001DAFD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA7CD9CB1EEA4792001DAFD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA7CD9CD1EEA4792001DAFD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA7CD9EA1EEA489D001DAFD5 /* ZCOrderBusiness.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZCOrderBusiness.xcodeproj; path = ZCOrderBusiness/ZCOrderBusiness.xcodeproj; sourceTree = "<group>"; };
+		DA7CDA201EEA4947001DAFD5 /* ZCPublicLibrary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZCPublicLibrary.xcodeproj; path = ZCPublicLibrary/ZCPublicLibrary.xcodeproj; sourceTree = "<group>"; };
+		DA7CDA3B1EEA49A6001DAFD5 /* ZCMyProfileBusiness.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZCMyProfileBusiness.xcodeproj; path = ZCMyProfileBusiness/ZCMyProfileBusiness.xcodeproj; sourceTree = "<group>"; };
+		DA7CDAB31EEAA25A001DAFD5 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		DA7CDAB41EEAA25A001DAFD5 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		DA7CDAB51EEAA25A001DAFD5 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		DA7CDAB61EEAA25A001DAFD5 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		DA7CDAB71EEAA25A001DAFD5 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		DA7CDAB81EEAA25A001DAFD5 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		DA7CDAB91EEAA25A001DAFD5 /* libFMDB.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFMDB.a; sourceTree = "<group>"; };
+		DA7CE08C1EED90CF001DAFD5 /* PayCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayCenterViewController.h; sourceTree = "<group>"; };
+		DA7CE08D1EED90CF001DAFD5 /* PayCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayCenterViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA7CD9B61EEA4792001DAFD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7CDA591EEA70E3001DAFD5 /* ZCPublicLibrary.framework in Frameworks */,
+				DA7CDA581EEA70DE001DAFD5 /* ZCOrderBusiness.framework in Frameworks */,
+				DA7CDABA1EEAA25A001DAFD5 /* libFMDB.a in Frameworks */,
+				DA7CDA571EEA70DA001DAFD5 /* ZCMyProfileBusiness.framework in Frameworks */,
+				DCC59454ADB9CE6604BFD091 /* libPods-JHFrame_Test.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B9A5BE4DD96BD3C13595227 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA7CDAB21EEAA25A001DAFD5 /* FMDB */,
+				AEA43B0BEBB2EF447916E617 /* libPods-JHFrame_Test.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		828283611AF134F2409C7116 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B521FCB29BD996660C76895 /* Pods-JHFrame_Test.debug.xcconfig */,
+				C7FDB086CE7E8D4E37C5D81F /* Pods-JHFrame_Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA7CD9B01EEA4792001DAFD5 = {
+			isa = PBXGroup;
+			children = (
+				DA7CDA3B1EEA49A6001DAFD5 /* ZCMyProfileBusiness.xcodeproj */,
+				DA7CD9EA1EEA489D001DAFD5 /* ZCOrderBusiness.xcodeproj */,
+				DA7CDA201EEA4947001DAFD5 /* ZCPublicLibrary.xcodeproj */,
+				DA7CD9BB1EEA4792001DAFD5 /* JHFrame_Test */,
+				DA7CD9BA1EEA4792001DAFD5 /* Products */,
+				828283611AF134F2409C7116 /* Pods */,
+				3B9A5BE4DD96BD3C13595227 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DA7CD9BA1EEA4792001DAFD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA7CD9B91EEA4792001DAFD5 /* JHFrame_Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA7CD9BB1EEA4792001DAFD5 /* JHFrame_Test */ = {
+			isa = PBXGroup;
+			children = (
+				DA7CD9BF1EEA4792001DAFD5 /* AppDelegate.h */,
+				DA7CD9C01EEA4792001DAFD5 /* AppDelegate.m */,
+				DA7CD9C21EEA4792001DAFD5 /* ViewController.h */,
+				DA7CD9C31EEA4792001DAFD5 /* ViewController.m */,
+				DA7CE08C1EED90CF001DAFD5 /* PayCenterViewController.h */,
+				DA7CE08D1EED90CF001DAFD5 /* PayCenterViewController.m */,
+				DA7CD9C51EEA4792001DAFD5 /* Main.storyboard */,
+				DA7CD9C81EEA4792001DAFD5 /* Assets.xcassets */,
+				DA7CD9CA1EEA4792001DAFD5 /* LaunchScreen.storyboard */,
+				DA7CD9CD1EEA4792001DAFD5 /* Info.plist */,
+				DA7CD9BC1EEA4792001DAFD5 /* Supporting Files */,
+			);
+			path = JHFrame_Test;
+			sourceTree = "<group>";
+		};
+		DA7CD9BC1EEA4792001DAFD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA7CD9BD1EEA4792001DAFD5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA7CD9EB1EEA489D001DAFD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA7CD9EF1EEA489F001DAFD5 /* ZCOrderBusiness.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA7CDA211EEA4947001DAFD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA7CDA251EEA4949001DAFD5 /* ZCPublicLibrary.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA7CDA3C1EEA49A6001DAFD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA7CDA401EEA49A8001DAFD5 /* ZCMyProfileBusiness.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA7CDAB21EEAA25A001DAFD5 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				DA7CDAB31EEAA25A001DAFD5 /* FMDatabase.h */,
+				DA7CDAB41EEAA25A001DAFD5 /* FMDatabaseAdditions.h */,
+				DA7CDAB51EEAA25A001DAFD5 /* FMDatabasePool.h */,
+				DA7CDAB61EEAA25A001DAFD5 /* FMDatabaseQueue.h */,
+				DA7CDAB71EEAA25A001DAFD5 /* FMDB.h */,
+				DA7CDAB81EEAA25A001DAFD5 /* FMResultSet.h */,
+				DA7CDAB91EEAA25A001DAFD5 /* libFMDB.a */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA7CD9B81EEA4792001DAFD5 /* JHFrame_Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA7CD9D01EEA4792001DAFD5 /* Build configuration list for PBXNativeTarget "JHFrame_Test" */;
+			buildPhases = (
+				A02D251D022F1FCC20549E61 /* [CP] Check Pods Manifest.lock */,
+				DA7CD9B51EEA4792001DAFD5 /* Sources */,
+				DA7CD9B61EEA4792001DAFD5 /* Frameworks */,
+				DA7CD9B71EEA4792001DAFD5 /* Resources */,
+				2DCDF262D8806E0E2069C052 /* [CP] Embed Pods Frameworks */,
+				F567ECB965F71D95EC7ABE9E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JHFrame_Test;
+			productName = JHFrame_Test;
+			productReference = DA7CD9B91EEA4792001DAFD5 /* JHFrame_Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA7CD9B11EEA4792001DAFD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Jiahui;
+				TargetAttributes = {
+					DA7CD9B81EEA4792001DAFD5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = H5FV9M2FWE;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DA7CD9B41EEA4792001DAFD5 /* Build configuration list for PBXProject "JHFrame_Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA7CD9B01EEA4792001DAFD5;
+			productRefGroup = DA7CD9BA1EEA4792001DAFD5 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DA7CDA3C1EEA49A6001DAFD5 /* Products */;
+					ProjectRef = DA7CDA3B1EEA49A6001DAFD5 /* ZCMyProfileBusiness.xcodeproj */;
+				},
+				{
+					ProductGroup = DA7CD9EB1EEA489D001DAFD5 /* Products */;
+					ProjectRef = DA7CD9EA1EEA489D001DAFD5 /* ZCOrderBusiness.xcodeproj */;
+				},
+				{
+					ProductGroup = DA7CDA211EEA4947001DAFD5 /* Products */;
+					ProjectRef = DA7CDA201EEA4947001DAFD5 /* ZCPublicLibrary.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				DA7CD9B81EEA4792001DAFD5 /* JHFrame_Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DA7CD9EF1EEA489F001DAFD5 /* ZCOrderBusiness.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ZCOrderBusiness.framework;
+			remoteRef = DA7CD9EE1EEA489F001DAFD5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DA7CDA251EEA4949001DAFD5 /* ZCPublicLibrary.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ZCPublicLibrary.framework;
+			remoteRef = DA7CDA241EEA4949001DAFD5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DA7CDA401EEA49A8001DAFD5 /* ZCMyProfileBusiness.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ZCMyProfileBusiness.framework;
+			remoteRef = DA7CDA3F1EEA49A8001DAFD5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA7CD9B71EEA4792001DAFD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7CD9CC1EEA4792001DAFD5 /* LaunchScreen.storyboard in Resources */,
+				DA7CD9C91EEA4792001DAFD5 /* Assets.xcassets in Resources */,
+				DA7CD9C71EEA4792001DAFD5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DCDF262D8806E0E2069C052 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JHFrame_Test/Pods-JHFrame_Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A02D251D022F1FCC20549E61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F567ECB965F71D95EC7ABE9E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JHFrame_Test/Pods-JHFrame_Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA7CD9B51EEA4792001DAFD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7CD9C41EEA4792001DAFD5 /* ViewController.m in Sources */,
+				DA7CD9C11EEA4792001DAFD5 /* AppDelegate.m in Sources */,
+				DA7CE08E1EED90CF001DAFD5 /* PayCenterViewController.m in Sources */,
+				DA7CD9BE1EEA4792001DAFD5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA7CD9C51EEA4792001DAFD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA7CD9C61EEA4792001DAFD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA7CD9CA1EEA4792001DAFD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA7CD9CB1EEA4792001DAFD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA7CD9CE1EEA4792001DAFD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DA7CD9CF1EEA4792001DAFD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA7CD9D11EEA4792001DAFD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B521FCB29BD996660C76895 /* Pods-JHFrame_Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H5FV9M2FWE;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/DACircularProgress\"",
+					"\"${PODS_ROOT}/Headers/Public/HandyFrame\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/MWPhotoBrowser\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"$(PROJECT_DIR)/ZCMyProfileBusiness/ZCMyProfileBusiness\"/**",
+					"\"$(PROJECT_DIR)/ZCOrderBusiness/ZCOrderBusiness\"/**",
+					"\"$(PROJECT_DIR)/ZCPublicLibrary/ZCPublicLibrary\"/**",
+				);
+				INFOPLIST_FILE = JHFrame_Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FMDB",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.JHFrame-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA7CD9D21EEA4792001DAFD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7FDB086CE7E8D4E37C5D81F /* Pods-JHFrame_Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H5FV9M2FWE;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/DACircularProgress\"",
+					"\"${PODS_ROOT}/Headers/Public/HandyFrame\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/MWPhotoBrowser\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"$(PROJECT_DIR)/ZCMyProfileBusiness/ZCMyProfileBusiness\"/**",
+					"\"$(PROJECT_DIR)/ZCOrderBusiness/ZCOrderBusiness\"/**",
+					"\"$(PROJECT_DIR)/ZCPublicLibrary/ZCPublicLibrary\"/**",
+				);
+				INFOPLIST_FILE = JHFrame_Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FMDB",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.JHFrame-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA7CD9B41EEA4792001DAFD5 /* Build configuration list for PBXProject "JHFrame_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA7CD9CE1EEA4792001DAFD5 /* Debug */,
+				DA7CD9CF1EEA4792001DAFD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA7CD9D01EEA4792001DAFD5 /* Build configuration list for PBXNativeTarget "JHFrame_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA7CD9D11EEA4792001DAFD5 /* Debug */,
+				DA7CD9D21EEA4792001DAFD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA7CD9B11EEA4792001DAFD5 /* Project object */;
+}
